@@ -42,11 +42,8 @@ import com.simplemobiletools.commons.dialogs.WritePermissionDialog.Mode
 import com.simplemobiletools.commons.helpers.*
 import com.simplemobiletools.commons.models.*
 import com.simplemobiletools.commons.views.MyTextView
+import java.io.*
 import kotlinx.android.synthetic.main.dialog_title.view.*
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.FileOutputStream
-import java.io.OutputStream
 import java.util.*
 
 fun AppCompatActivity.updateActionBarTitle(text: String, color: Int = getProperStatusBarColor()) {
@@ -317,6 +314,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 }
 
 fun Activity.launchPurchaseThankYouIntent() {
+    hideKeyboard()
     try {
         launchViewIntent("market://details?id=com.simplemobiletools.thankyou")
     } catch (ignored: Exception) {
@@ -335,14 +333,22 @@ fun Activity.launchUpgradeToProIntent() {
 fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))
 
 fun Activity.launchViewIntent(url: String) {
+    hideKeyboard()
     ensureBackgroundThread {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
-            launchActivityIntent(this)
+            try {
+                startActivity(this)
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.no_browser_found)
+            } catch (e: Exception) {
+                showErrorToast(e)
+            }
         }
     }
 }
 
 fun Activity.redirectToRateUs() {
+    hideKeyboard()
     try {
         launchViewIntent("market://details?id=${packageName.removeSuffix(".debug")}")
     } catch (ignored: ActivityNotFoundException) {
@@ -726,7 +732,8 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
 
             val recycleBinPath = firstFile.isRecycleBinPath(this)
             if (canManageMedia() && !recycleBinPath) {
-                val fileUris = getFileUrisFromFileDirItems(files).second
+                val fileUris = getFileUrisFromFileDirItems(files)
+
                 deleteSDK30Uris(fileUris) { success ->
                     runOnUiThread {
                         callback?.invoke(success)
@@ -756,7 +763,7 @@ private fun BaseSimpleActivity.deleteFilesCasual(
 
             if (index == files.lastIndex) {
                 if (isRPlus() && failedFileDirItems.isNotEmpty()) {
-                    val fileUris = getFileUrisFromFileDirItems(failedFileDirItems).second
+                    val fileUris = getFileUrisFromFileDirItems(failedFileDirItems)
                     deleteSDK30Uris(fileUris) { success ->
                         runOnUiThread {
                             callback?.invoke(success)
@@ -847,7 +854,7 @@ fun BaseSimpleActivity.deleteFileBg(
 }
 
 private fun BaseSimpleActivity.deleteSdk30(fileDirItem: FileDirItem, callback: ((wasSuccess: Boolean) -> Unit)?) {
-    val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem)).second
+    val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
     deleteSDK30Uris(fileUris) { success ->
         runOnUiThread {
             callback?.invoke(success)
@@ -920,7 +927,7 @@ fun BaseSimpleActivity.renameFile(
             }
         }
     } else if (isAccessibleWithSAFSdk30(oldPath)) {
-        if (canManageMedia() && isPathOnInternalStorage(oldPath)) {
+        if (canManageMedia() && !File(oldPath).isDirectory && isPathOnInternalStorage(oldPath)) {
             renameCasually(oldPath, newPath, isRenamingMultipleFiles, callback)
         } else {
             handleSAFDialogSdk30(oldPath) {
@@ -931,8 +938,21 @@ fun BaseSimpleActivity.renameFile(
                 try {
                     ensureBackgroundThread {
                         val success = renameDocumentSdk30(oldPath, newPath)
-                        runOnUiThread {
-                            callback?.invoke(success, Android30RenameFormat.NONE)
+                        if (success) {
+                            updateInMediaStore(oldPath, newPath)
+                            rescanPath(newPath) {
+                                runOnUiThread {
+                                    callback?.invoke(true, Android30RenameFormat.NONE)
+                                }
+                                if (!oldPath.equals(newPath, true)) {
+                                    deleteFromMediaStore(oldPath)
+                                }
+                                scanPathRecursively(newPath)
+                            }
+                        } else {
+                            runOnUiThread {
+                                callback?.invoke(false, Android30RenameFormat.NONE)
+                            }
                         }
                     }
                 } catch (e: Exception) {
@@ -1006,7 +1026,7 @@ private fun BaseSimpleActivity.renameCasually(
             if (isRenamingMultipleFiles) {
                 callback?.invoke(false, Android30RenameFormat.CONTENT_RESOLVER)
             } else {
-                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this))).second
+                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this)))
                 updateSDK30Uris(fileUris) { success ->
                     if (success) {
                         val values = ContentValues().apply {
@@ -1026,7 +1046,11 @@ private fun BaseSimpleActivity.renameCasually(
                 }
             }
         } else {
-            showErrorToast(exception)
+            if (exception is IOException && File(oldPath).isDirectory && isRestrictedWithSAFSdk30(oldPath)) {
+                toast(R.string.cannot_rename_folder)
+            } else {
+                showErrorToast(exception)
+            }
             callback?.invoke(false, Android30RenameFormat.NONE)
         }
         return
@@ -1068,7 +1092,7 @@ private fun BaseSimpleActivity.renameCasually(
             if (isRenamingMultipleFiles) {
                 callback?.invoke(false, Android30RenameFormat.SAF)
             } else {
-                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this))).second
+                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this)))
                 updateSDK30Uris(fileUris) { success ->
                     if (!success) {
                         return@updateSDK30Uris
@@ -1252,7 +1276,7 @@ fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreati
         isRestrictedWithSAFSdk30(fileDirItem.path) -> {
             callback.invoke(
                 try {
-                    val fileUri = getFileUrisFromFileDirItems(arrayListOf(fileDirItem)).second
+                    val fileUri = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
                     applicationContext.contentResolver.openOutputStream(fileUri.first())
                 } catch (e: Exception) {
                     null

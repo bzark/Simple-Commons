@@ -14,6 +14,8 @@
     <string name="edit_with">Muuda rakendusega</string>
     <string name="edit">Muuda</string>
     <string name="no_app_found">Sobivat rakendust ei leidu</string>
+    <string name="no_browser_found">Brauserit ei leidu</string>
+    <string name="no_email_client_found">E-posti klienti ei leidu</string>
     <string name="set_as">Seadista kui</string>
     <string name="copy_to_clipboard">Kopeeri lõikelauale</string>
     <string name="copy_number_to_clipboard">Kopeeri number lõikelauale</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Otsingu alustamiseks kirjuta vähemalt 2 tähemärki.</string>
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Sirvi (Pro)</string>
     <string name="no_items_found">Ühtegi kirjet ei leidunud.</string>
     <string name="change_filter">Muuda otsingufiltrit</string>
     <!-- Permissions -->
@@ -188,6 +191,8 @@
     <string name="system_folder_restriction">Selles kaustas pole toimingud lubatud, palun vali mõni muu kaust</string>
     <string name="system_folder_copy_restriction">Süsteem ei võimalda sellesse kausta kopeerida, palun vali mõni muu kaust</string>
     <string name="rename_in_sd_card_system_restriction">Süsteem ei võimalda selle kausta nime muuta</string>
+    <string name="rename_internal_system_restriction">Kaustu ei saa ümber nimetada otse sisemälus, seda saad teha ainult alamkaustades</string>
+    <string name="cannot_rename_folder">Selle kausta nime ei saa muuta</string>
     <!-- File picker -->
     <string name="select_folder">Vali kaust</string>
     <string name="select_file">Vali fail</string>
@@ -221,6 +226,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Vali salvestusruum</string>
+    <string name="storage">Andmehoidla</string>
     <string name="internal">Sisemine</string>
     <string name="sd_card">SD-kaart</string>
     <string name="root">Root</string>
@@ -310,7 +316,9 @@
     <string name="undo">Pööra tegevus tagasi</string>
     <string name="redo">Korda tegevust</string>
     <string name="print">Trüki</string>
+    <string name="print_pro">Trüki (Pro)</string>
     <string name="create_shortcut">Loo otsetee</string>
+    <string name="create_shortcut_pro">Loo otsetee (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Kõne SIM-kaardilt 1</string>
@@ -385,6 +393,7 @@
     <string name="protection_setup_successfully">Salasõna seadistamine õnnestus. Juhul, kui unustad salasõna, siis paigalda rakendus uuesti.</string>
     <string name="fingerprint_setup_successfully">Turvamise seadistamine õnnestus. Juhul, kui tema lähtestamisel tekib vigu, siis paigalda rakendus uuesti.</string>
     <string name="lock_folder">Lukusta kaust</string>
+    <string name="lock_folder_pro">Lukusta kaust (Pro)</string>
     <string name="unlock_folder">Eemalda kausta lukustus</string>
     <string name="lock_folder_notice">See turvameede toimib vaid selles rakenduses ega ole mõeldud asendama süsteemiülest krüptimist.</string>
     <!-- Times -->
@@ -790,8 +799,8 @@
     <string name="faq_3_text_commons">Kahjuks ei saa. Failid kustutatakse koheselt pärast topeltkinnitust ning prügikasti ei ole kasutusel.</string>
     <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta\?</string>
     <string name="faq_4_text_commons">Jah, kui lohistad vidinat oma koduekraanile, ilmub vidina seadistusvaade. Sa näed vasakus alumises nurgas värvilisi ruute, ning uue värvi valimiseks vajuta neid. Lisaks saade läbipaistvuse kohendamiseks kasutada liugurit.</string>
-    <string name="faq_5_title_commons">Can I somehow restore deleted files?</string>
-    <string name="faq_5_text_commons">If they were really deleted, you cannot. However, there is a Recycle Bin enabled by default, it will cause the files just be moved in the Bin instead of deleting them.</string>
+    <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
+    <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa seda teha. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu teisaldatakse sinna.</string>
     <string name="faq_6_title_commons">The app launcher icon disappeared. What can I do?</string>
     <string name="faq_6_text_commons">It is caused by your launcher not supporting icon customization properly. Try launching the app via Google Play or some widget, if available.
         Once launched, just set back the default orange icon #F57C00. You might have to reinstall the app in the worst case.</string>
@@ -888,7 +897,7 @@
     <string name="why_upgrade_private_contact_sharing">Valikuline privaatsete kontaktide jagamine meie rakenduste vahel</string>
     <string name="why_upgrade_customizable_contact_ringtones">Kohandatavad helinad kontaktidele</string>
     <string name="why_upgrade_contact_filtering">Kontaktide otsing</string>
-    <string name="why_upgrade_contact_private_contacts">Privately stored contacts</string>
+    <string name="why_upgrade_contact_private_contacts">Privaatselt salvestatud kontaktid</string>
     <!-- Notes Pro -->
     <string name="why_upgrade_checklists">Tööde loendid</string>
     <string name="why_upgrade_different_note_per_widget">Erinevad märkmed ja värvid iga vidina kohta</string>
@@ -934,8 +943,9 @@
     <string name="audio_record_view_title">Audio Record View (heli visualiseerimine)</string>
     <string name="sms_mms_title">SMS MMS (SMS- ja MMS-sõnumite käsitlemine)</string>
     <string name="apng_title">APNG Android (animeeritud WebP tugi)</string>
-    <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
-    <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (PDF failide kuvamise teek)</string>
+    <string name="m3u_parser_title">M3U Parser (m3u esitusloendi käitleja)</string>
+    <string name="android_lame_title">AndroidLame (mp3 kodeerija)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@simplemobiletools.com aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>

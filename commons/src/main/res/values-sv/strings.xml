@@ -14,6 +14,8 @@
     <string name="edit_with">Redigera med</string>
     <string name="edit">Redigera</string>
     <string name="no_app_found">Ingen giltig app hittades</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Använd som</string>
     <string name="copy_to_clipboard">Kopiera till urklipp</string>
     <string name="copy_number_to_clipboard">Kopiera nummer till urklipp</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Skriv in minst två tecken för att starta sökningen.</string>
     <!-- Filters -->
     <string name="filter">Filtrera</string>
+    <string name="filter_pro">Filtrera (Pro)</string>
     <string name="no_items_found">Inga objekt hittades.</string>
     <string name="change_filter">Ändra filter</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Välj mapp</string>
     <string name="select_file">Välj fil</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Välj lagringsplats</string>
+    <string name="storage">Storage</string>
     <string name="internal">Internt</string>
     <string name="sd_card">SD-kort</string>
     <string name="root">Rot</string>
@@ -309,7 +315,9 @@
     <string name="undo">Ångra</string>
     <string name="redo">Gör om</string>
     <string name="print">Skriv ut</string>
+    <string name="print_pro">Skriv ut (Pro)</string>
     <string name="create_shortcut">Skapa genväg</string>
+    <string name="create_shortcut_pro">Skapa genväg (Pro)</string>
     <string name="add_number_to_contact">Lägg till nummer i kontakt</string>
     <string name="view_contact_details">Visa kontaktuppgifter</string>
     <string name="call_from_sim_1">Ring med SIM-kort 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Lösenordet har ställts in. Installera om appen om du glömmer bort det.</string>
     <string name="fingerprint_setup_successfully">Skyddet har ställts in. Installera om appen om du inte kan ta bort skyddet.</string>
     <string name="lock_folder">Lås mapp</string>
+    <string name="lock_folder_pro">Lås mapp (Pro)</string>
     <string name="unlock_folder">Lås upp mapp</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
     <!-- Times -->
@@ -957,6 +966,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@simplemobiletools.com and you will get it. That makes it easy to try it out :)</string>

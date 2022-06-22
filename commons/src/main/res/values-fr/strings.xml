@@ -14,6 +14,8 @@
     <string name="edit_with">Modifier avec</string>
     <string name="edit">Modifier</string>
     <string name="no_app_found">Aucune application disponible</string>
+    <string name="no_browser_found">Aucun navigateur trouvé</string>
+    <string name="no_email_client_found">Aucun client de messagerie trouvé</string>
     <string name="set_as">Définir en tant que</string>
     <string name="copy_to_clipboard">Copier dans le presse-papiers</string>
     <string name="copy_number_to_clipboard">Copier le numéro dans le presse-papiers</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Saisissez au moins deux caractères pour lancer la recherche.</string>
     <!-- Filters -->
     <string name="filter">Filtrer</string>
+    <string name="filter_pro">Filtre (Pro)</string>
     <string name="no_items_found">Aucun élément trouvé.</string>
     <string name="change_filter">Modifier le filtre</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Le système n\'autorise pas l\'opération dans ce dossier, veuillez en choisir un autre</string>
     <string name="system_folder_copy_restriction">Le système ne permet pas de copier dans ce dossier, veuillez en choisir un autre</string>
     <string name="rename_in_sd_card_system_restriction">Le système n\'autorise pas le renommage dans ce dossier</string>
+    <string name="rename_internal_system_restriction">Impossible de renommer les dossiers directement sur le stockage interne, seulement les sous-dossiers</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Sélectionner un dossier</string>
     <string name="select_file">Sélectionner un fichier</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Sélectionner le stockage</string>
+    <string name="storage">Storage</string>
     <string name="internal">Interne</string>
     <string name="sd_card">Carte SD</string>
     <string name="root">Racine</string>
@@ -309,7 +315,9 @@
     <string name="undo">Annuler</string>
     <string name="redo">Répéter</string>
     <string name="print">Imprimer</string>
+    <string name="print_pro">Imprimer (Pro)</string>
     <string name="create_shortcut">Créer un raccourci</string>
+    <string name="create_shortcut_pro">Créer un raccourci (Pro)</string>
     <string name="add_number_to_contact">Ajouter un numéro au contact</string>
     <string name="view_contact_details">Afficher les détails du contact</string>
     <string name="call_from_sim_1">Appeler depuis SIM 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Mot de passe enregistré. Veuillez réinstaller l\'application en cas de problème.</string>
     <string name="fingerprint_setup_successfully">Empreinte enregistrée. Veuillez réinstaller l\'application en cas de problème.</string>
     <string name="lock_folder">Verrouiller le dossier</string>
+    <string name="lock_folder_pro">Verrouiller le dossier (Pro)</string>
     <string name="unlock_folder">Déverrouiller le dossier</string>
     <string name="lock_folder_notice">Le verrouillage ne fonctionne que dans cette application. Cette protection ne remplace pas un chiffrage système.</string>
     <!-- Times -->
@@ -948,6 +957,7 @@
     <string name="apng_title">APNG Android (support WebP animé)</string>
     <string name="pdf_viewer_title">Android PdfViewer (visionneuse de PDF)</string>
     <string name="m3u_parser_title">M3U Parser (traitement des fichiers de listes de lecture m3u)</string>
+    <string name="android_lame_title">AndroidLame (encodeur mp3)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue. Procurez-vous la version Pro à l\'adresse https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement, à tout moment, contactez-nous à hello@simplemobiletools.com et vous l\'obtiendrez. Alors n\'hésitez pas et essayez nos applications :)</string>

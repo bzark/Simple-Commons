@@ -13,6 +13,8 @@
     <string name="edit_with">Uredi z</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Ni veljavne aplikacije</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Nastavi kot</string>
     <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
@@ -105,6 +107,7 @@
 
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">Nobenih rezultatov.</string>
     <string name="change_filter">Spremeni filter</string>
 
@@ -193,6 +196,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">Izberi mapo</string>
@@ -238,6 +243,7 @@
 
     <!-- Storages -->
     <string name="select_storage">Izberite</string>
+    <string name="storage">Storage</string>
     <string name="internal">Notranja shramba</string>
     <string name="sd_card">Kartica SD</string>
     <string name="root">Korenska mapa</string>
@@ -336,7 +342,9 @@
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
+    <string name="print_pro">Natisni (Pro)</string>
     <string name="create_shortcut">Create shortcut</string>
+    <string name="create_shortcut_pro">Create shortcut (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -415,6 +423,7 @@
     <string name="protection_setup_successfully">Geslo uspešno nastavljeno. Če ga pozabite, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="fingerprint_setup_successfully">Zaščita uspešno nastavljena. Če pride do težav s ponastavitvijo, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="lock_folder">Lock folder</string>
+    <string name="lock_folder_pro">Lock folder (Pro)</string>
     <string name="unlock_folder">Unlock folder</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
 
@@ -1081,6 +1090,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">ZASTARELO: Ta verzija aplikacije se ne vzdržuje več, pridobite si Pro verzijo na https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

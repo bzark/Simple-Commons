@@ -13,6 +13,8 @@
     <string name="edit_with">ویرایش با</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">برنامهٔ معتبری پیدا نشد</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">تنظیم به عنوان</string>
     <string name="copy_to_clipboard">رونوشت به بریده‌دان</string>
     <string name="copy_number_to_clipboard">رونوشت شماره به بریده‌دان</string>
@@ -105,6 +107,7 @@
 
     <!-- Filters -->
     <string name="filter">پالایش</string>
+    <string name="filter_pro">پالایش (Pro)</string>
     <string name="no_items_found">موردی پیدا نشد.</string>
     <string name="change_filter">تغییر پالایش</string>
 
@@ -193,6 +196,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">گزینش یک پوشه</string>
@@ -232,6 +237,7 @@
 
     <!-- Storages -->
     <string name="select_storage">گزینش انبار</string>
+    <string name="storage">Storage</string>
     <string name="internal">داخلی</string>
     <string name="sd_card">کارت حافظه</string>
     <string name="root">ریشه</string>
@@ -331,7 +337,9 @@
     <string name="undo">برگرداندن</string>
     <string name="redo">انجام دوباره</string>
     <string name="print">چاپ</string>
+    <string name="print_pro">چاپ (Pro)</string>
     <string name="create_shortcut">ساخت میانبر</string>
+    <string name="create_shortcut_pro">ساخت میانبر (Pro)</string>
     <string name="add_number_to_contact">افزودن شماره به مخاطبین</string>
     <string name="view_contact_details">نمایش جزئیات مخاطب</string>
     <string name="call_from_sim_1">تماس با سیم‌کارت 1</string>
@@ -408,6 +416,7 @@
     <string name="protection_setup_successfully">Password setup successfully. Please reinstall the app in case you forget it.</string>
     <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with reseting it.</string>
     <string name="lock_folder">قفل کردن پوشه</string>
+    <string name="lock_folder_pro">قفل کردن پوشه (Pro)</string>
     <string name="unlock_folder">باز کردن قفل پوشه</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
 
@@ -1017,6 +1026,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

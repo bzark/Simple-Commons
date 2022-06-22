@@ -146,7 +146,7 @@ class AboutActivity : BaseSimpleActivity() {
                 try {
                     startActivity(emailIntent)
                 } catch (e: ActivityNotFoundException) {
-                    toast(R.string.no_app_found)
+                    toast(R.string.no_email_client_found)
                 } catch (e: Exception) {
                     showErrorToast(e)
                 }
@@ -299,7 +299,7 @@ class AboutActivity : BaseSimpleActivity() {
             Intent(applicationContext, LicenseActivity::class.java).apply {
                 putExtra(APP_ICON_IDS, getAppIconIDs())
                 putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
-                putExtra(APP_LICENSES, intent.getIntExtra(APP_LICENSES, 0))
+                putExtra(APP_LICENSES, intent.getLongExtra(APP_LICENSES, 0))
                 startActivity(this)
             }
         }

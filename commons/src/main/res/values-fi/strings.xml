@@ -14,6 +14,8 @@
     <string name="edit_with">Muokkaa sovelluksella</string>
     <string name="edit">Muokkaa</string>
     <string name="no_app_found">Sovelluksia ei löydetty</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Aseta</string>
     <string name="copy_to_clipboard">Kopioi leikepöydälle</string>
     <string name="copy_number_to_clipboard">Kopioi numero leikepöydälle</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Syötä vähintään 2 merkkiä hakeaksesi.</string>
     <!-- Filters -->
     <string name="filter">Suodata</string>
+    <string name="filter_pro">Suodata (Pro)</string>
     <string name="no_items_found">Kohteita ei löytynyt.</string>
     <string name="change_filter">Vaihda suodatin</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Järjestelmä ei salli toimintoa tässä kansiossa, ole hyvä ja valitse toinen</string>
     <string name="system_folder_copy_restriction">Järjestelmä ei salli kopiointia tähän hakemistoon, ole hyvä ja valitse toinen</string>
     <string name="rename_in_sd_card_system_restriction">Järjestelmä ei salli uudelleennimeämistä tässä hakemistossa</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Valitse kansio</string>
     <string name="select_file">Valitse tiedosto</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Valitse tallennustila</string>
+    <string name="storage">Storage</string>
     <string name="internal">Sisäinen</string>
     <string name="sd_card">Muistikortti</string>
     <string name="root">Juurihakemisto</string>
@@ -309,7 +315,9 @@
     <string name="undo">Kumoa</string>
     <string name="redo">Tee uudelleen</string>
     <string name="print">Tulosta</string>
+    <string name="print_pro">Tulosta (Pro)</string>
     <string name="create_shortcut">Luo pikakuvake</string>
+    <string name="create_shortcut_pro">Luo pikakuvake (Pro)</string>
     <string name="add_number_to_contact">Lisää numero yhteystietoon</string>
     <string name="view_contact_details">Näytä yhteystieto</string>
     <string name="call_from_sim_1">Soita SIM 1-kortilla</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Salasana tallennettu. Asenna sovellus uudelleen jos unohdat sen.</string>
     <string name="fingerprint_setup_successfully">Suojaus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
     <string name="lock_folder">Lukitse kansio</string>
+    <string name="lock_folder_pro">Lukitse kansio (Pro)</string>
     <string name="unlock_folder">Avaa kansion lukitus</string>
     <string name="lock_folder_notice">Tämä suojaus toimii vain tässä sovelluksessa, se ei korvaa laajempaa järjestelmän kattavaa suojausta.</string>
     <!-- Times -->
@@ -945,6 +954,7 @@
     <string name="apng_title">APNG Android (animoitu WebP-tuki)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">VANHENTUNUT:: Tätä sovellusversiota ei enää ylläpidetä, hanki Pro-versio osoitteesta https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Muista, että saat rahasi automaattisesti takaisin, jos poistat minkä tahansa maksullisista sovelluksistamme kahden tunnin sisällä asentamisesta. Jos haluat rahasi milloin vain myöhemmin takaisin, ota yhteyttä sähköpostitse hello@simplemobiletools.com ja saat rahat takaisin. Tämä tekee kokeilun helpoksi :)</string>

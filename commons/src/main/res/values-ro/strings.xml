@@ -14,6 +14,8 @@
     <string name="edit_with">Editează cu</string>
     <string name="edit">Editaţi</string>
     <string name="no_app_found">Nu s-a găsit nicio aplicaţie validă</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Setează ca</string>
     <string name="copy_to_clipboard">Copie în clipboard</string>
     <string name="copy_number_to_clipboard">Copie numărul în clipboard</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Introduceţi cel puţin 2 caractere pentru a începe căutarea.</string>
     <!-- Filters -->
     <string name="filter">Filtru</string>
+    <string name="filter_pro">Filtru (Pro)</string>
     <string name="no_items_found">Nu s-a găsit niciun articol.</string>
     <string name="change_filter">Schimbaţi filtrul</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Sistemul nu permite operarea în acest dosar, vă rugăm să alegeți un alt dosar</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">Sistemul nu permite redenumirea în acest dosar</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Selectaţi un dosar</string>
     <string name="select_file">Selectaţi un dosar</string>
@@ -219,6 +224,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Selectați spațiul de stocare</string>
+    <string name="storage">Storage</string>
     <string name="internal">Intern</string>
     <string name="sd_card">Card SD</string>
     <string name="root">Rădăcină</string>
@@ -313,7 +319,9 @@
     <string name="undo">Anulaţi</string>
     <string name="redo">Reveniţi</string>
     <string name="print">Printează</string>
+    <string name="print_pro">Printează (Pro)</string>
     <string name="create_shortcut">Creați o scurtătură</string>
+    <string name="create_shortcut_pro">Creați o scurtătură (Pro)</string>
     <string name="add_number_to_contact">Adăugați numărul de contact</string>
     <string name="view_contact_details">Vezi detalii de contact</string>
     <string name="call_from_sim_1">Apelaţi folosind SIM 1</string>
@@ -389,6 +397,7 @@
     <string name="protection_setup_successfully">Configurarea parolei a fost efectuată cu succes. Vă rugăm să reinstalați aplicația în cazul în care o uitați.</string>
     <string name="fingerprint_setup_successfully">Configurarea protecției a fost efectuată cu succes. Vă rugăm să reinstalați aplicația în cazul în care aveți probleme cu resetarea acesteia.</string>
     <string name="lock_folder">Blocare dosar</string>
+    <string name="lock_folder_pro">Blocare dosar (Pro)</string>
     <string name="unlock_folder">Deblocare dosar</string>
     <string name="lock_folder_notice">Această protecție funcționează doar în această aplicație, ea nu ar trebui să înlocuiască o criptare reală a dosarelor la nivel de sistem.</string>
     <!-- Times -->
@@ -992,6 +1001,7 @@
     <string name="apng_title">APNG Android (suport WebP animat)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nu uitați că, dacă dezinstalați orice aplicație plătită în termen de 2 ore, veți fi rambursat automat. Dacă doriți o rambursare oricând mai târziu, contactați-ne la hello@simplemobiletools.com și o veți obține. Astfel, este ușor să o încercați. :)</string>

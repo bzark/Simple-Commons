@@ -14,6 +14,8 @@
     <string name="edit_with">Edita amb</string>
     <string name="edit">Edita</string>
     <string name="no_app_found">No s\'ha trobat cap aplicació vàlida</string>
+    <string name="no_browser_found">No s\'ha trobat cap navegador</string>
+    <string name="no_email_client_found">No s\'ha trobat cap client de correu electrònic</string>
     <string name="set_as">Estableix com a</string>
     <string name="copy_to_clipboard">Copia al porta-retalls</string>
     <string name="copy_number_to_clipboard">Copia el número al porta-retalls</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Escriviu com a mínim 2 caràcters per iniciar la cerca.</string>
     <!-- Filters -->
     <string name="filter">Filtre</string>
+    <string name="filter_pro">Filtre (Pro)</string>
     <string name="no_items_found">No s\'ha trobat cap element.</string>
     <string name="change_filter">Canvia el filtre</string>
     <!-- Permissions -->
@@ -188,6 +191,8 @@
     <string name="system_folder_restriction">El sistema no permet l\'operació en aquesta carpeta, trieu-ne una altra</string>
     <string name="system_folder_copy_restriction">El sistema no permet copiar en aquesta carpeta. Trieu-ne una altra</string>
     <string name="rename_in_sd_card_system_restriction">El sistema no permet canviar el nom en aquesta carpeta</string>
+    <string name="rename_internal_system_restriction">No es poden canviar els noms de les carpetes directament a l\'emmagatzematge intern, només les subcarpetes</string>
+    <string name="cannot_rename_folder">No s\'ha pogut canviar el nom d\'aquesta carpeta</string>
     <!-- File picker -->
     <string name="select_folder">Selecciona una carpeta</string>
     <string name="select_file">Seleccioneu un fitxer</string>
@@ -221,6 +226,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Seleccioneu l\'emmagatzematge</string>
+    <string name="storage">Emmagatzematge</string>
     <string name="internal">Intern</string>
     <string name="sd_card">Targeta SD</string>
     <string name="root">Arrel</string>
@@ -309,7 +315,9 @@
     <string name="undo">Desfés</string>
     <string name="redo">Refés</string>
     <string name="print">Imprimeix</string>
+    <string name="print_pro">Imprimeix (Pro)</string>
     <string name="create_shortcut">Crea una drecera</string>
+    <string name="create_shortcut_pro">Crea una drecera (Pro)</string>
     <string name="add_number_to_contact">Afegeix un número al contacte</string>
     <string name="view_contact_details">Veure els detalls de contacte</string>
     <string name="call_from_sim_1">Truca des de la SIM 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Configuració correcta de la contrasenya. Torneu a instal·lar l\'aplicació en cas que l\'oblideu.</string>
     <string name="fingerprint_setup_successfully">Configuració correcta de la protecció. Torneu a instal·lar l\'aplicació en cas de problemes per restablir-la.</string>
     <string name="lock_folder">Bloqueja la carpeta</string>
+    <string name="lock_folder_pro">Bloqueja la carpeta (Pro)</string>
     <string name="unlock_folder">Desbloqueja la carpeta</string>
     <string name="lock_folder_notice">Aquesta protecció només funciona en aquesta aplicació. No substituirà un xifratge real de carpetes de tot el sistema.</string>
     <!-- Times -->
@@ -558,7 +567,7 @@
     <string name="show_info_bubble">Mostra una bombolla d\'informació en desplaçar elements arrossegant la barra de desplaçament</string>
     <string name="prevent_phone_from_sleeping">Evita que el telèfon s\'adormi mentre l\'aplicació està en primer pla</string>
     <string name="skip_delete_confirmation">Omet sempre el diàleg de confirmació de supressió</string>
-    <string name="enable_pull_to_refresh">Activa el lliscament des de la part superior per refrescar</string>
+    <string name="enable_pull_to_refresh">Activa el lliscament des de la part superior per actualitzar</string>
     <string name="use_24_hour_time_format">Utilitza el format horari de 24 hores</string>
     <string name="change_date_and_time_format">Canvia el format de data i hora</string>
     <string name="sunday_first">Comença la setmana el diumenge</string>
@@ -927,6 +936,7 @@
     <string name="apng_title">APNG Android (implementa WebP animades)</string>
     <string name="pdf_viewer_title">Android PdfViewer (visualitzador de PDF)</string>
     <string name="m3u_parser_title">Analitzador M3U (gestió de fitxers «m3u» de llistes de reproducció)</string>
+    <string name="android_lame_title">AndroidLame (codificador «mp3»)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">No oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, el càrrec es retornarà automàticament. Si voleu un reemborsament més tard, poseu-vos en contacte amb nosaltres a hello@simplemobiletools.com i el rebreu. Això fa que sigui fàcil provar-ho :)</string>

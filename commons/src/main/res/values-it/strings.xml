@@ -14,6 +14,8 @@
     <string name="edit_with">Modifica con</string>
     <string name="edit">Modifica</string>
     <string name="no_app_found">Non è stata trovata nessuna applicazione valida</string>
+    <string name="no_browser_found">Nessun browser trovato</string>
+    <string name="no_email_client_found">Nessun client e-mail trovato</string>
     <string name="set_as">Imposta come</string>
     <string name="copy_to_clipboard">Copia negli appunti</string>
     <string name="copy_number_to_clipboard">Copia numero negli appunti</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Digita almeno 2 caratteri per iniziare la ricerca.</string>
     <!-- Filters -->
     <string name="filter">Filtro</string>
+    <string name="filter_pro">Filtro (Pro)</string>
     <string name="no_items_found">Nessun elemento trovato.</string>
     <string name="change_filter">Cambia filtro</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Il sistema non permette l\'operazione in questa cartella, sceglietene un\'altra</string>
     <string name="system_folder_copy_restriction">Il sistema non permette di copiare in questa cartella, sceglietene un\'altra</string>
     <string name="rename_in_sd_card_system_restriction">Il sistema non permette di rinominare in questa cartella</string>
+    <string name="rename_internal_system_restriction">Impossibile rinominare le cartelle direttamente sulla memoria interna, solo le sottocartelle</string>
+    <string name="cannot_rename_folder">Impossibile rinominare questa cartella</string>
     <!-- File picker -->
     <string name="select_folder">Seleziona una cartella</string>
     <string name="select_file">Seleziona un file</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Seleziona archiviazione</string>
+    <string name="storage">Memoria</string>
     <string name="internal">Interna</string>
     <string name="sd_card">Scheda SD</string>
     <string name="root">Root</string>
@@ -309,7 +315,9 @@
     <string name="undo">Annulla</string>
     <string name="redo">Ripeti</string>
     <string name="print">Stampa</string>
+    <string name="print_pro">Stampa (Pro)</string>
     <string name="create_shortcut">Crea scorciatoia</string>
+    <string name="create_shortcut_pro">Crea scorciatoia (Pro)</string>
     <string name="add_number_to_contact">Aggiungi numero al contatto</string>
     <string name="view_contact_details">Vedi dettagli del contatto</string>
     <string name="call_from_sim_1">Chiama dalla SIM 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Password impostata correttamente. Reinstallare l\'app in caso di dimenticanza.</string>
     <string name="fingerprint_setup_successfully">Protezione impostata correttamente. Reinstallare l\'app in caso di problemi nel ripristinarla.</string>
     <string name="lock_folder">Blocca cartella</string>
+    <string name="lock_folder_pro">Blocca cartella (Pro)</string>
     <string name="unlock_folder">Sblocca cartella</string>
     <string name="lock_folder_notice">Questa protezione funziona solo nell\'app, non è pensata per sostituire una vera cifratura delle cartelle a livello di sistema.</string>
     <!-- Times -->
@@ -950,6 +959,7 @@
     <string name="apng_title">APNG Android (supporto WebP animati)</string>
     <string name="pdf_viewer_title">Android PdfViewer (visualizzatore di PDF)</string>
     <string name="m3u_parser_title">Parser M3U (gestione dei file playlist m3u)</string>
+    <string name="android_lame_title">AndroidLame (codificatore mp3)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATA: Questa versione dell\'app non è più supportata, ottieni la versione Pro a https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a hello@simplemobiletools.com. In questo modo puoi facilmente provare l\'app :)</string>

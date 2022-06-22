@@ -13,6 +13,8 @@
     <string name="edit_with">Editatu honekin…</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Ez da baliozko aplikaziorik aurkitu</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Ezarri honela…</string>
     <string name="copy_to_clipboard">Kopiatu arbelera</string>
     <string name="copy_number_to_clipboard">Kopiatu zenbakia arbelera</string>
@@ -103,6 +105,7 @@
 
     <!-- Filters -->
     <string name="filter">Iragazkia</string>
+    <string name="filter_pro">Iragazkia (Pro)</string>
     <string name="no_items_found">Elementurik ez da aurkitu.</string>
     <string name="change_filter">Aldatu iragazkia</string>
 
@@ -191,6 +194,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">Hautatu karpeta</string>
@@ -230,6 +235,7 @@
 
     <!-- Storages -->
     <string name="select_storage">Hautatu biltegiratzea</string>
+    <string name="storage">Storage</string>
     <string name="internal">Bernekoa</string>
     <string name="sd_card">SD txartela</string>
     <string name="root">Erroa</string>
@@ -329,7 +335,9 @@
     <string name="undo">Desegin</string>
     <string name="redo">Berregin</string>
     <string name="print">Inprimatu</string>
+    <string name="print_pro">Inprimatu (Pro)</string>
     <string name="create_shortcut">Sortu lasterbidea</string>
+    <string name="create_shortcut_pro">Sortu lasterbidea (Pro)</string>
     <string name="add_number_to_contact">Gehitu zenbakia kontaktura</string>
     <string name="view_contact_details">Ikusi kontaktuaren xehetasunak</string>
     <string name="call_from_sim_1">Deitu 1. SIMetik</string>
@@ -406,6 +414,7 @@
     <string name="protection_setup_successfully">Pasahitza ondo ezarri da. Berrinstalatu aplikazioa ahazten baduzu.</string>
     <string name="fingerprint_setup_successfully">Protekzioa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
     <string name="lock_folder">Blokeatu karpeta</string>
+    <string name="lock_folder_pro">Blokeatu karpeta (Pro)</string>
     <string name="unlock_folder">Deblokeatu karpeta</string>
     <string name="lock_folder_notice">Protekzio hau aplikazio honetan soilik funtzionatuko du, ez du balio it is not supposed to replace a real systemwide folder encryption.</string>
 
@@ -1015,6 +1024,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

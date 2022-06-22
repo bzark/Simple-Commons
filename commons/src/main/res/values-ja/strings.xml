@@ -14,6 +14,8 @@
     <string name="edit_with">他のアプリで編集</string>
     <string name="edit">編集</string>
     <string name="no_app_found">有効なアプリが見つかりません</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">他で使う</string>
     <string name="copy_to_clipboard">クリップボードにコピーする</string>
     <string name="copy_number_to_clipboard">数字をクリップボードにコピーする</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">検索を開始するには少なくとも2文字以上入力してください。</string>
     <!-- Filters -->
     <string name="filter">フィルタ</string>
+    <string name="filter_pro">フィルタ (Pro)</string>
     <string name="no_items_found">何も見つかりませんでした。</string>
     <string name="change_filter">フィルタを変更</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">フォルダを選択</string>
     <string name="select_file">ファイルを選択</string>
@@ -211,6 +216,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">ストレージを選択</string>
+    <string name="storage">Storage</string>
     <string name="internal">内部</string>
     <string name="sd_card">SDカード</string>
     <string name="root">ルート</string>
@@ -305,7 +311,9 @@
     <string name="undo">元に戻す</string>
     <string name="redo">やり直し</string>
     <string name="print">印刷</string>
+    <string name="print_pro">印刷 (Pro)</string>
     <string name="create_shortcut">ショートカットを作成</string>
+    <string name="create_shortcut_pro">ショートカットを作成 (Pro)</string>
     <string name="add_number_to_contact">連絡先に番号を追加</string>
     <string name="view_contact_details">連絡先の詳細を表示</string>
     <string name="call_from_sim_1">SIM 1 から電話</string>
@@ -379,6 +387,7 @@
     <string name="protection_setup_successfully">パスワードの設定が完了しました。パスワードを紛失した場合は、アプリを再インストールしてください</string>
     <string name="fingerprint_setup_successfully">指紋認証の設定が完了しました。何らかの問題によりアプリを再インストールした場合には、再度設定し直してください。</string>
     <string name="lock_folder">フォルダに鍵をかける</string>
+    <string name="lock_folder_pro">フォルダに鍵をかける (Pro)</string>
     <string name="unlock_folder">フォルダの鍵を外す</string>
     <string name="lock_folder_notice">この保護はアプリ内のみの機能となっており、実際のシステム全体のフォルダ暗号化は行われません。</string>
     <!-- Times -->
@@ -920,6 +929,7 @@
     <string name="apng_title">APNG Android (アニメーションWebPサポート)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">非推奨: このバージョンのアプリはメンテナンスが行われなくなります。こちらのURLからPro版を入手してください。https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@simplemobiletools.com

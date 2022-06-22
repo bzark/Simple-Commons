@@ -14,6 +14,8 @@
     <string name="edit_with">Bewerken met</string>
     <string name="edit">Bewerken</string>
     <string name="no_app_found">Geen geldige app gevonden</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Instellen als</string>
     <string name="copy_to_clipboard">Naar klembord kopiëren</string>
     <string name="copy_number_to_clipboard">Nummer naar klembord kopiëren</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Vul tenminste 2 tekens in om de zoekopdracht te starten.</string>
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">Geen items gevonden.</string>
     <string name="change_filter">Filter wijzigen</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Het systeem staat de bewerking in deze map niet toe, kies een andere map</string>
     <string name="system_folder_copy_restriction">Het systeem staat het kopiëren naar deze map niet toe</string>
     <string name="rename_in_sd_card_system_restriction">Het systeem staat niet toe om in deze map namen te wijzigen</string>
+    <string name="rename_internal_system_restriction">Kan hoofdmappen op de interne opslag niet hernoemen. Alleen submappen kunnen worden hernoemd.</string>
+    <string name="cannot_rename_folder">Kan deze map niet hernoemen</string>
     <!-- File picker -->
     <string name="select_folder">Kies een map</string>
     <string name="select_file">Kies een bestand</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Opslag kiezen</string>
+    <string name="storage">Opslag</string>
     <string name="internal">Interne opslag</string>
     <string name="sd_card">SD-kaart</string>
     <string name="root">Hoofdmap</string>
@@ -303,7 +309,9 @@
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
     <string name="print">Afdrukken</string>
+    <string name="print_pro">Afdrukken (Pro)</string>
     <string name="create_shortcut">Snelkoppeling maken</string>
+    <string name="create_shortcut_pro">Snelkoppeling maken (Pro)</string>
     <string name="add_number_to_contact">Nummer toevoegen aan contact</string>
     <string name="view_contact_details">Contactgegevens bekijken</string>
     <string name="call_from_sim_1">Met SIM 1 bellen</string>
@@ -378,6 +386,7 @@
     <string name="protection_setup_successfully">Wachtwoord succesvol ingesteld. App opnieuw installeren als het wachtwoord kwijt is.</string>
     <string name="fingerprint_setup_successfully">Bescherming instellen is gelukt. App opnieuw installeren bij problemen met het terugzetten.</string>
     <string name="lock_folder">Map vergrendelen</string>
+    <string name="lock_folder_pro">Map vergrendelen (Pro)</string>
     <string name="unlock_folder">Map ontgrendelen</string>
     <string name="lock_folder_notice">Deze bescherming werkt alleen in deze app, het is niet de bedoeling dat het een echte systeembrede mapversleuteling vervangt.</string>
     <!-- Times -->
@@ -947,6 +956,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is de vinden op https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Bij het deïnstalleren van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@simplemobiletools.com en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>

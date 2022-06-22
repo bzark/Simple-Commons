@@ -14,6 +14,8 @@
     <string name="edit_with">Edytuj w</string>
     <string name="edit">Edytuj</string>
     <string name="no_app_found">Nie znaleziono odpowiedniej aplikacji</string>
+    <string name="no_browser_found">Nie znaleziono przeglądarki</string>
+    <string name="no_email_client_found">Nie znaleziono klienta poczty e-mail</string>
     <string name="set_as">Ustaw jako</string>
     <string name="copy_to_clipboard">Kopiuj do schowka</string>
     <string name="copy_number_to_clipboard">Skopiuj numer do schowka</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Wpisz co najmniej 2 znaki, aby rozpocząć wyszukiwanie.</string>
     <!-- Filters -->
     <string name="filter">Filtruj</string>
+    <string name="filter_pro">Filtruj (Pro)</string>
     <string name="no_items_found">Nic nie znaleziono.</string>
     <string name="change_filter">Zmień filtr</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">System nie pozwala na operację w tym folderze, wybierz inny</string>
     <string name="system_folder_copy_restriction">System nie pozwala na kopiowanie do tego folderu, wybierz inny</string>
     <string name="rename_in_sd_card_system_restriction">System nie pozwala na zmianę nazwy w tym folderze</string>
+    <string name="rename_internal_system_restriction">Nie można zmieniać nazw folderów bezpośrednio w pamięci wewnętrznej, tylko podfolderów</string>
+    <string name="cannot_rename_folder">Nie można zmienić nazwy tego folderu</string>
     <!-- File picker -->
     <string name="select_folder">Wybierz folder</string>
     <string name="select_file">Wybierz plik</string>
@@ -220,6 +225,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Wybierz pamięć</string>
+    <string name="storage">Pamięć</string>
     <string name="internal">Wewnętrzna</string>
     <string name="sd_card">Karta pamięci</string>
     <string name="root">Folder główny</string>
@@ -309,7 +315,9 @@
     <string name="undo">Cofnij</string>
     <string name="redo">Ponów</string>
     <string name="print">Drukuj</string>
+    <string name="print_pro">Drukuj (Pro)</string>
     <string name="create_shortcut">Utwórz skrót</string>
+    <string name="create_shortcut_pro">Utwórz skrót (Pro)</string>
     <string name="add_number_to_contact">Dodaj numer do kontaktu</string>
     <string name="view_contact_details">Wyświetl szczegóły kontaktu</string>
     <string name="call_from_sim_1">Zadzwoń z karty SIM 1</string>
@@ -343,7 +351,7 @@
     <string name="surname">Nazwisko</string>
     <string name="full_name">Pełna nazwa</string>
     <string name="use_custom_sorting">Użyj własnego sortowania</string>
-    <string name="change_order">Zmień porządek</string>
+    <string name="change_order">Zmień kolejność</string>
     <!-- Confirmation dialog -->
     <string name="proceed_with_deletion">Czy kontynuować usuwanie\?</string>
     <string name="deletion_confirmation">Czy usunąć %s\?</string>
@@ -385,6 +393,7 @@
     <string name="protection_setup_successfully">Hasło zostało ustawione. Jeśli je zapomnisz, przeinstaluj aplikację.</string>
     <string name="fingerprint_setup_successfully">Zabezpieczenie zostało ustawione. W razie problemów z jego zresetowaniem przeinstaluj aplikację.</string>
     <string name="lock_folder">Zablokuj folder</string>
+    <string name="lock_folder_pro">Zablokuj folder (Pro)</string>
     <string name="unlock_folder">Odblokuj folder</string>
     <string name="lock_folder_notice">Ta ochrona działa tylko w tej aplikacji i nie ma zastępować prawdziwego szyfrowania folderów w całym systemie.</string>
     <!-- Times -->
@@ -978,6 +987,7 @@
     <string name="apng_title">APNG Android (obsługa animowanych WebP)</string>
     <string name="pdf_viewer_title">Android PdfViewer (czytnik PDF)</string>
     <string name="m3u_parser_title">M3U Parser (obsługa plików playlist M3U)</string>
+    <string name="android_lame_title">AndroidLame (koder MP3)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Pamiętaj, że jeśli odinstalujesz którąkolwiek z płatnych aplikacji w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na hello@simplemobiletools.com, a otrzymasz go. To sprawia, że aplikacje są łatwe do wypróbowania :)</string>

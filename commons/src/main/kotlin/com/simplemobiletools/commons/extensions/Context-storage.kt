@@ -159,7 +159,8 @@ fun Context.isPathOnOTG(path: String) = otgPath.isNotEmpty() && path.startsWith(
 fun Context.isPathOnInternalStorage(path: String) = internalStoragePath.isNotEmpty() && path.startsWith(internalStoragePath)
 
 fun Context.getSAFOnlyDirs(): List<String> {
-    return DIRS_ACCESSIBLE_ONLY_WITH_SAF.map { "$internalStoragePath$it" }
+    return DIRS_ACCESSIBLE_ONLY_WITH_SAF.map { "$internalStoragePath$it" } +
+        DIRS_ACCESSIBLE_ONLY_WITH_SAF.map { "$sdCardPath$it" }
 }
 
 fun Context.isSAFOnlyRoot(path: String): Boolean {
@@ -213,7 +214,7 @@ fun isAndroidDataDir(path: String): Boolean {
 fun Context.storeAndroidTreeUri(path: String, treeUri: String) {
     return when {
         isPathOnOTG(path) -> if (isAndroidDataDir(path)) baseConfig.otgAndroidDataTreeUri = treeUri else baseConfig.otgAndroidObbTreeUri = treeUri
-        isPathOnSD(path) -> if (isAndroidDataDir(path)) baseConfig.sdAndroidDataTreeUri = treeUri else baseConfig.otgAndroidObbTreeUri = treeUri
+        isPathOnSD(path) -> if (isAndroidDataDir(path)) baseConfig.sdAndroidDataTreeUri = treeUri else baseConfig.sdAndroidObbTreeUri = treeUri
         else -> if (isAndroidDataDir(path)) baseConfig.primaryAndroidDataTreeUri = treeUri else baseConfig.primaryAndroidObbTreeUri = treeUri
     }
 }
@@ -943,7 +944,7 @@ private val physicalPaths = arrayListOf(
 // Convert paths like /storage/emulated/0/Pictures/Screenshots/first.jpg to content://media/external/images/media/131799
 // so that we can refer to the file in the MediaStore.
 // If we found no mediastore uri for a given file, do not return its path either to avoid some mismatching
-fun Context.getFileUrisFromFileDirItems(fileDirItems: List<FileDirItem>): Pair<ArrayList<String>, ArrayList<Uri>> {
+fun Context.getUrisPathsFromFileDirItems(fileDirItems: List<FileDirItem>): Pair<ArrayList<String>, ArrayList<Uri>> {
     val fileUris = ArrayList<Uri>()
     val successfulFilePaths = ArrayList<String>()
     val allIds = getMediaStoreIds(this)
@@ -986,4 +987,15 @@ fun getMediaStoreIds(context: Context): HashMap<String, Long> {
     }
 
     return ids
+}
+
+fun Context.getFileUrisFromFileDirItems(fileDirItems: List<FileDirItem>): List<Uri> {
+    val fileUris = getUrisPathsFromFileDirItems(fileDirItems).second
+    if (fileUris.isEmpty()) {
+        fileDirItems.map { fileDirItem ->
+            fileUris.add(fileDirItem.assembleContentUri())
+        }
+    }
+
+    return fileUris
 }

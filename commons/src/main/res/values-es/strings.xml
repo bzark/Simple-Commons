@@ -13,6 +13,8 @@
     <string name="edit_with">Editar con</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">No se encontró una aplicación válida</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Establecer como</string>
     <string name="copy_to_clipboard">Copiar al portapapeles</string>
     <string name="copy_number_to_clipboard">Copiar número al portapapeles</string>
@@ -104,6 +106,7 @@
 
     <!-- Filters -->
     <string name="filter">Filtrar</string>
+    <string name="filter_pro">Filtrar (Pro)</string>
     <string name="no_items_found">No se encontraron elementos</string>
     <string name="change_filter">Cambiar filtro</string>
 
@@ -192,6 +195,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
 
     <!-- File picker -->
     <string name="select_folder">Seleccione una carpeta</string>
@@ -231,6 +236,7 @@
 
     <!-- Storages -->
     <string name="select_storage">Seleccione almacenamiento</string>
+    <string name="storage">Storage</string>
     <string name="internal">Almacenamiento interno</string>
     <string name="sd_card">Tarjeta SD</string>
     <string name="root">Raíz /</string>
@@ -330,7 +336,9 @@
     <string name="undo">Deshacer</string>
     <string name="redo">Rehacer</string>
     <string name="print">Imprimir</string>
+    <string name="print_pro">Imprimir (Pro)</string>
     <string name="create_shortcut">Crear atajo</string>
+    <string name="create_shortcut_pro">Crear atajo (Pro)</string>
     <string name="add_number_to_contact">Anadir el número a contactos</string>
     <string name="view_contact_details">Ver detalles de contacto</string>
     <string name="call_from_sim_1">Llamar desde SIM 1</string>
@@ -407,6 +415,7 @@
     <string name="protection_setup_successfully">Se ha agregado la contraseña con éxito. Por favor, vuelva a instalar la aplicación en caso de que la olvide.</string>
     <string name="fingerprint_setup_successfully">Configuración de protección con éxito. Por favor, vuelva a instalar la aplicación en caso de problemas al desbloquear.</string>
     <string name="lock_folder">Bloquear carpeta</string>
+    <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
     <string name="unlock_folder">Desbloquear carpeta</string>
     <string name="lock_folder_notice">Esta protección funciona solo en esta aplicación, no reemplaza un cifrado de carpetas en todo el sistema.</string>
 
@@ -1016,6 +1025,7 @@
     <string name="apng_title">APNG Android (Soporte WebP animado)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

@@ -14,6 +14,8 @@
     <string name="edit_with">Редактировать в…</string>
     <string name="edit">Редактировать</string>
     <string name="no_app_found">Приложение не найдено</string>
+    <string name="no_browser_found">Браузер не найден</string>
+    <string name="no_email_client_found">Клиент электронной почты не найден</string>
     <string name="set_as">Установить как…</string>
     <string name="copy_to_clipboard">Копировать в буфер обмена</string>
     <string name="copy_number_to_clipboard">Копировать номер в буфер обмена</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Введите как минимум 2 символа для начала поиска.</string>
     <!-- Filters -->
     <string name="filter">Фильтр</string>
+    <string name="filter_pro">Фильтр (Pro)</string>
     <string name="no_items_found">Ничего не найдено.</string>
     <string name="change_filter">Изменить фильтр</string>
     <!-- Permissions -->
@@ -164,7 +167,8 @@
     <string name="could_not_create_folder">Невозможно создать папку \"%s\"</string>
     <string name="could_not_create_file">Невозможно создать файл \"%s\"</string>
     <string name="no_new_items">Ничего не найдено</string>
-    <string name="no_space">По выбранному пути недостаточно свободного места.\nНеобходимо %1$s, доступно %2$s.</string>
+    <string name="no_space">По выбранному пути недостаточно свободного места.
+\nНеобходимо %1$s, доступно %2$s.</string>
     <string name="system_service_disabled">Системная служба для выбора файлов и папок недоступна</string>
     <!-- Create new -->
     <string name="create_new">Создать</string>
@@ -188,6 +192,8 @@
     <string name="system_folder_restriction">Система не разрешает операции в этой папке, выберите другую</string>
     <string name="system_folder_copy_restriction">Система не разрешает копирование в эту папку, выберите другую</string>
     <string name="rename_in_sd_card_system_restriction">Система не разрешает переименование этой папки</string>
+    <string name="rename_internal_system_restriction">Нет возможности переименовать каталог в корне внешнего хранилища, только подкаталоги</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Выбор папки</string>
     <string name="select_file">Выбор файла</string>
@@ -225,6 +231,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Выбрать хранилище</string>
+    <string name="storage">Storage</string>
     <string name="internal">Внутренняя память</string>
     <string name="sd_card">SD-карта</string>
     <string name="root">Корневая папка</string>
@@ -319,7 +326,9 @@
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
     <string name="print">Печать</string>
+    <string name="print_pro">Печать (Pro)</string>
     <string name="create_shortcut">Создать ярлык</string>
+    <string name="create_shortcut_pro">Создать ярлык (Pro)</string>
     <string name="add_number_to_contact">Добавить номер контакту</string>
     <string name="view_contact_details">Просмотр данных контакта</string>
     <string name="call_from_sim_1">Вызов с SIM 1</string>
@@ -395,6 +404,7 @@
     <string name="protection_setup_successfully">Пароль установлен. Переустановите приложение в случае, если вы его забудете.</string>
     <string name="fingerprint_setup_successfully">Установка защиты выполнена успешно. Переустановите приложение в случае возникновения проблем с её отключением.</string>
     <string name="lock_folder">Защитить папку</string>
+    <string name="lock_folder_pro">Защитить папку (Pro)</string>
     <string name="unlock_folder">Снять защиту папки</string>
     <string name="lock_folder_notice">Данная защита работает только в этом приложении, она не должна заменять собой реальное общесистемное шифрование.</string>
     <!-- Times -->
@@ -996,6 +1006,7 @@
     <string name="apng_title">APNG Android (отображение анимации WebP)</string>
     <string name="pdf_viewer_title">Android PdfViewer (просмотр PDF)</string>
     <string name="m3u_parser_title">M3U Parser (обработка файлов списков воспроизведения m3u)</string>
+    <string name="android_lame_title">AndroidLame (кодировщик в mp3)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">УСТАРЕВШЕЕ: данная версия приложения больше не поддерживается, переходите на версию Pro https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма покупки. Если вы захотите вернуть деньги позднее, просто свяжитесь с нами по адресу hello@simplemobiletools.com и вы их получите. Так что можно легко опробовать это приложение :)</string>

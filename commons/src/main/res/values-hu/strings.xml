@@ -14,6 +14,8 @@
     <string name="edit_with">Szerkesztés ezzel</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Nem található érvényes alkalmazás</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Beállítás ennek</string>
     <string name="copy_to_clipboard">Másolás a vágólapra</string>
     <string name="copy_number_to_clipboard">Szám másolása a vágólapra</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Legalább 2 karaktert írjon be a keresés indításához.</string>
     <!-- Filters -->
     <string name="filter">Szűrő</string>
+    <string name="filter_pro">Szűrő (Pro)</string>
     <string name="no_items_found">Nem található elem.</string>
     <string name="change_filter">Szűrő módosítása</string>
     <!-- Permissions -->
@@ -188,6 +191,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Válasszon egy mappát</string>
     <string name="select_file">Válasszon egy fájlt</string>
@@ -221,6 +226,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Válasszon tárolót</string>
+    <string name="storage">Storage</string>
     <string name="internal">Belső</string>
     <string name="sd_card">SD-kártya</string>
     <string name="root">Gyökér</string>
@@ -309,7 +315,9 @@
     <string name="undo">Visszavonás</string>
     <string name="redo">Mégis</string>
     <string name="print">Nyomtatás</string>
+    <string name="print_pro">Nyomtatás (Pro)</string>
     <string name="create_shortcut">Indító létrehozása</string>
+    <string name="create_shortcut_pro">Indító létrehozása (Pro)</string>
     <string name="add_number_to_contact">Szám hozzáadása névjegyhez</string>
     <string name="view_contact_details">Névjegy részleteinek megtekintése</string>
     <string name="call_from_sim_1">Hívás az 1. SIM-ről</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">A jelszó beállítása sikeres. Ha elfelejti, akkor újra kell telepítenie az alkalmazást.</string>
     <string name="fingerprint_setup_successfully">A védelem beállítása sikeres. A visszaállítással kapcsolatos problémák esetén telepítse újra az alkalmazást.</string>
     <string name="lock_folder">Mappa zárolása</string>
+    <string name="lock_folder_pro">Mappa zárolása (Pro)</string>
     <string name="unlock_folder">Mappa zárolásának feloldása</string>
     <string name="lock_folder_notice">Ez a védelem csak ezen az alkalmazáson belül működik, nem célja egy valódi rendszerszintű mappatitkosítás helyettesítése.</string>
     <!-- Times -->
@@ -931,6 +940,7 @@
     <string name="apng_title">APNG Android (animált WebP támogatása)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro címről</string>
     <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@simplemobiletools.com címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>

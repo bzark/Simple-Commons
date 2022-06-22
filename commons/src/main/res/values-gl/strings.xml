@@ -14,6 +14,8 @@
     <string name="edit_with">Editar con</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Non se atopou un aplicativo válido</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Establecer como</string>
     <string name="copy_to_clipboard">Copiar ao portapapeis</string>
     <string name="copy_number_to_clipboard">Copy number to clipboard</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Escribe polo menos dous caracteres para iniciar a busca.</string>
     <!-- Filters -->
     <string name="filter">Filtro</string>
+    <string name="filter_pro">Filtro (Pro)</string>
     <string name="no_items_found">Non se atopou ningún elemento.</string>
     <string name="change_filter">Cambiar filtro</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Selecciona un cartafol</string>
     <string name="select_file">Selecciona un ficheiro</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Escolle o almacenamento</string>
+    <string name="storage">Storage</string>
     <string name="internal">Almacenamento interno</string>
     <string name="sd_card">Tarxeta SD</string>
     <string name="root">Raíz /</string>
@@ -309,7 +315,9 @@
     <string name="undo">Desfacer</string>
     <string name="redo">Refacer</string>
     <string name="print">Imprimir</string>
+    <string name="print_pro">Imprimir (Pro)</string>
     <string name="create_shortcut">Crear atallo</string>
+    <string name="create_shortcut_pro">Crear atallo (Pro)</string>
     <string name="add_number_to_contact">Engadir número a un contacto</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Engadiuse o contrasinal correctamente. Por favor, volve a instalar o aplicativo en caso de que te esquezas dela.</string>
     <string name="fingerprint_setup_successfully">Protección configurada correctamente. Por favor, volve a instalar o aplicativo en caso de que teñas problemas ao restablecela.</string>
     <string name="lock_folder">Bloquear cartafol</string>
+    <string name="lock_folder_pro">Bloquear cartafol (Pro)</string>
     <string name="unlock_folder">Desbloquear cartafol</string>
     <string name="lock_folder_notice">Esta protección só funciona neste app, non está pensado para reemprazar un cifrado de cartafois real a nivel de sistema.</string>
     <!-- Times -->
@@ -955,6 +964,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en hello@simplemobiletools.com e terala. Isto fai que sexa fácil probala :)</string>

@@ -13,6 +13,8 @@
     <string name="edit_with">Επεξεργασία με</string>
     <string name="edit">Επεξεργασία</string>
     <string name="no_app_found">Δεν βρέθηκε έγκυρη εφαρμογή</string>
+    <string name="no_browser_found">Δεν βρέθηκε φυλλομετρητής</string>
+    <string name="no_email_client_found">Δεν βρέθηκε client email</string>
     <string name="set_as">Ορισμός ως</string>
     <string name="copy_to_clipboard">Αντιγραφή στο Πρόχειρο</string>
     <string name="copy_number_to_clipboard">Αντιγραφή αριθμού στο Πρόχειρο</string>
@@ -102,6 +104,7 @@
 
     <!-- Filters -->
     <string name="filter">Φίλτρο</string>
+    <string name="filter_pro">Φίλτρο (Pro)</string>
     <string name="no_items_found">Δεν βρέθηκαν στοιχεία.</string>
     <string name="change_filter">Αλλαγή φίλτρου</string>
 
@@ -190,6 +193,8 @@
     <string name="system_folder_restriction">Το Σύστημα δεν επιτρέπει τη λειτουργία σε αυτόν το φάκελο, παρακαλούμε επιλέξτε έναν άλλο φάκελο</string>
     <string name="system_folder_copy_restriction">Το Σύστημα δεν επιτρέπει την αντιγραφή σε αυτόν τον φάκελο, παρακαλώ επιλέξτε έναν άλλο φάκελο</string>
     <string name="rename_in_sd_card_system_restriction">Το Σύστημα δεν επιτρέπει μετονομασία σε αυτόν το φάκελο</string>
+    <string name="rename_internal_system_restriction">Αδύνατη η μετονομασία φακέλων απευθείας στον εσωτερικό χώρο αποθήκευσης, μόνο σε υποφακέλους</string>
+    <string name="cannot_rename_folder">Αδύνατη η μετονομασία αυτού του φακέλου</string>
 
     <!-- File picker -->
     <string name="select_folder">Επιλογή φακέλου</string>
@@ -229,6 +234,7 @@
 
     <!-- Storages -->
     <string name="select_storage">Επιλέξτε αποθήκευση</string>
+    <string name="storage">Storage</string>
     <string name="internal">Εσωτερική</string>
     <string name="sd_card">SD Card</string>
     <string name="root">Root</string>
@@ -328,7 +334,9 @@
     <string name="undo">Αναίρεση</string>
     <string name="redo">Επανάληψη</string>
     <string name="print">Εκτύπωση</string>
+    <string name="print_pro">Εκτύπωση (Pro)</string>
     <string name="create_shortcut">Δημιουργία συντόμευσης</string>
+    <string name="create_shortcut_pro">Δημιουργία συντόμευσης (Pro)</string>
     <string name="add_number_to_contact">Προσθήκη αριθμού επαφής</string>
     <string name="view_contact_details">Προβολή λεπτομερειών επαφής</string>
     <string name="call_from_sim_1">Κλήση απο SIM 1</string>
@@ -405,6 +413,7 @@
     <string name="protection_setup_successfully">Ο κωδικός πρόσβασης ολοκληρώθηκε με επιτυχία. Εγκαταστήστε ξανά την εφαρμογή σε περίπτωση που τον ξεχάσετε.</string>
     <string name="fingerprint_setup_successfully">Η ρύθμιση προστασίας ολοκληρώθηκε με επιτυχία. Εγκαταστήστε ξανά την εφαρμογή σε περίπτωση προβλημάτων με την επαναφορά της.</string>
     <string name="lock_folder">Κλείδωμα Φακέλου</string>
+    <string name="lock_folder_pro">Κλείδωμα Φακέλου (Pro)</string>
     <string name="unlock_folder">Ξεκλείδωμα Φακέλου</string>
     <string name="lock_folder_notice">Αυτή η προστασία λειτουργεί μόνο για αυτήν την εφαρμογή, δεν πρόκειται να αντικαταστήσει την πραγματική κρυπτογράφηση του Συστήματος.</string>
 
@@ -1014,6 +1023,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
 
     <!-- Google Play listing -->
     <string name="deprecated_app">ΚΑΤΑΡΓΗΣΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>

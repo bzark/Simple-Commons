@@ -14,6 +14,8 @@
     <string name="edit_with">Taisyti naudojant</string>
     <string name="edit">Edit</string>
     <string name="no_app_found">Nerasta jokios tinkamos programėlės</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Nustatyti kaip</string>
     <string name="copy_to_clipboard">Kopijuoti į iškarpinę</string>
     <string name="copy_number_to_clipboard">Kopijuoti numerį į iškarpinę</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Norėdami pradėti paiešką, įveskite bent 2 simbolius.</string>
     <!-- Filters -->
     <string name="filter">Filtras</string>
+    <string name="filter_pro">Filtras (Pro)</string>
     <string name="no_items_found">Nerasta jokių elementų.</string>
     <string name="change_filter">Keisti filtrą</string>
     <!-- Permissions -->
@@ -188,6 +191,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Pasirinkite aplanką</string>
     <string name="select_file">Pasirinkite failą</string>
@@ -225,6 +230,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Pasirinkite saugyklą</string>
+    <string name="storage">Storage</string>
     <string name="internal">Vidinė atmintis</string>
     <string name="sd_card">SD kortelė</string>
     <string name="root">Root</string>
@@ -313,7 +319,9 @@
     <string name="undo">Atšaukti</string>
     <string name="redo">Grąžinti</string>
     <string name="print">Spausdinti</string>
+    <string name="print_pro">Spausdinti (Pro)</string>
     <string name="create_shortcut">Sukurti šaukinį</string>
+    <string name="create_shortcut_pro">Sukurti šaukinį (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Skambinti iš SIM kortelės 1</string>
@@ -389,6 +397,7 @@
     <string name="protection_setup_successfully">Slaptažodis sėkmingai nustatytas. Jeigu jį pamiršite, įdiekite programėlę iš naujo.</string>
     <string name="fingerprint_setup_successfully">Apsauga sėkmingai nustatyta. Jei kils problemų su apsaugos atstatymu, įdiekite programėlę iš naujo.</string>
     <string name="lock_folder">Užrakinti aplanką</string>
+    <string name="lock_folder_pro">Užrakinti aplanką (Pro)</string>
     <string name="unlock_folder">Atrakinti aplanką</string>
     <string name="lock_folder_notice">Ši apsauga veikia tik šioje programėlėje ir ji nepakeičia tikrojo aplankų šifravimo sistemos mastu.</string>
     <!-- Times -->
@@ -960,6 +969,7 @@
     <string name="apng_title">APNG Android (animuotų WebP palaikymas)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@simplemobiletools.com ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>

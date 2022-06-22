@@ -14,6 +14,8 @@
     <string name="edit_with">Rediger med</string>
     <string name="edit">Rediger</string>
     <string name="no_app_found">Der blev ikke fundet en gyldig app</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">Anvend som</string>
     <string name="copy_to_clipboard">Kopier til udklipsholder</string>
     <string name="copy_number_to_clipboard">Kopier nummeret til udklipsholderen</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Start søgningen ved at skrive mindst to tegn.</string>
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">Intet fundet.</string>
     <string name="change_filter">Skift filter</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Systemet tillader ikke operationen i denne mappe, vælg en anden</string>
     <string name="system_folder_copy_restriction">Systemet tillader ikke kopiering til denne mappe, vælg en anden</string>
     <string name="rename_in_sd_card_system_restriction">Systemet tillader ikke omdøbning i denne mappe</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Vælg en mappe</string>
     <string name="select_file">Vælg en fil</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Vælg lager</string>
+    <string name="storage">Storage</string>
     <string name="internal">Intern</string>
     <string name="sd_card">SD-kort</string>
     <string name="root">Rod</string>
@@ -309,7 +315,9 @@
     <string name="undo">Fortryd</string>
     <string name="redo">Gentag</string>
     <string name="print">Udskriv</string>
+    <string name="print_pro">Udskriv (Pro)</string>
     <string name="create_shortcut">Opret genvej</string>
+    <string name="create_shortcut_pro">Opret genvej (Pro)</string>
     <string name="add_number_to_contact">Føj nummer til kontakt</string>
     <string name="view_contact_details">Vis kontaktoplysninger</string>
     <string name="call_from_sim_1">Opkald fra SIM 1</string>
@@ -384,6 +392,7 @@
     <string name="protection_setup_successfully">Adgangskoden er oprettet. Geninstaller appen hvis du glemmer den.</string>
     <string name="fingerprint_setup_successfully">Beskyttelsen er oprettet. Geninstaller appen hvis du har problemer med at gendanne den.</string>
     <string name="lock_folder">Lås mappe</string>
+    <string name="lock_folder_pro">Lås mappe (Pro)</string>
     <string name="unlock_folder">Lås mappe op</string>
     <string name="lock_folder_notice">Denne beskyttelse virker kun i denne app, den er ikke beregnet som erstatning for rigtig kryptering af mapper på systemniveau.</string>
     <!-- Times -->
@@ -957,6 +966,7 @@
     <string name="apng_title">APNG Android (animeret WebP-understøttelse)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">FORÆLDET: Denne version af appen vedligeholdes ikke længere, skift til Pro-versionen her https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@simplemobiletools.com . På den måde kan du prøvekøre appen uden omkostninger :)</string>

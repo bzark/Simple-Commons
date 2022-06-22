@@ -14,6 +14,8 @@
     <string name="edit_with">Bearbeiten mit</string>
     <string name="edit">Bearbeiten</string>
     <string name="no_app_found">Keine passende App gefunden</string>
+    <string name="no_browser_found">Kein Browser gefunden</string>
+    <string name="no_email_client_found">Kein E-Mail-Client gefunden</string>
     <string name="set_as">Festlegen als</string>
     <string name="copy_to_clipboard">In die Zwischenablage kopieren</string>
     <string name="copy_number_to_clipboard">Kopiere die Nummer in die Zwischenablage</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">Du musst mindestens 2 Zeichen eingeben, um die Suche zu starten.</string>
     <!-- Filters -->
     <string name="filter">Filter</string>
+    <string name="filter_pro">Filter (Profi)</string>
     <string name="no_items_found">Keine Elemente gefunden.</string>
     <string name="change_filter">Filter ändern</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">Das System lässt den Vorgang in diesem Ordner nicht zu, bitte wählen Sie einen anderen Ordner</string>
     <string name="system_folder_copy_restriction">Das System lässt das Kopieren in diesen Ordner nicht zu, bitte wählen Sie einen anderen Ordner</string>
     <string name="rename_in_sd_card_system_restriction">Das System erlaubt keine Umbenennung in diesem Ordner</string>
+    <string name="rename_internal_system_restriction">Ordner auf dem internen Speicher können nicht direkt umbenannt werden, nur Unterordner</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">Ordner auswählen</string>
     <string name="select_file">Datei auswählen</string>
@@ -216,6 +221,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">Speicher auswählen</string>
+    <string name="storage">Storage</string>
     <string name="internal">Intern</string>
     <string name="sd_card">SD-Karte</string>
     <string name="root">Hauptverzeichnis</string>
@@ -310,7 +316,9 @@
     <string name="undo">Rückgängig</string>
     <string name="redo">Wiederholen</string>
     <string name="print">Drucken</string>
+    <string name="print_pro">Drucken (Pro)</string>
     <string name="create_shortcut">Verknüpfung erstellen</string>
+    <string name="create_shortcut_pro">Verknüpfung erstellen (Pro)</string>
     <string name="add_number_to_contact">Füge Nummer zu Kontakt hinzu</string>
     <string name="view_contact_details">Kontaktdetails anzeigen</string>
     <string name="call_from_sim_1">Von SIM 1 anrufen</string>
@@ -385,6 +393,7 @@
     <string name="protection_setup_successfully">Muster/PIN erfolgreich gespeichert. Falls vergessen, muss die App neu installiert werden.</string>
     <string name="fingerprint_setup_successfully">Schutz erfolgreich eingerichtet. Falls beim Zurücksetzen Probleme auftreten, bitte die App neu installieren.</string>
     <string name="lock_folder">Ordner sperren</string>
+    <string name="lock_folder_pro">Ordner sperren (Pro)</string>
     <string name="unlock_folder">Ordner entsperren</string>
     <string name="lock_folder_notice">Dieser Schutz ist nur innerhalb dieser App wirksam und kann keine systemweite Datenträgerverschlüsselung ersetzen.</string>
     <!-- Times -->
@@ -940,6 +949,7 @@
     <string name="apng_title">APNG Android (animierte WebP-Unterstützung)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF-Betrachter)</string>
     <string name="m3u_parser_title">M3U-Parser (Bearbeitung von m3u-Wiedergabelisten-Dateien)</string>
+    <string name="android_lame_title">AndroidLame (mp3-Encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">Veraltet: Diese Version der App wird nicht länger unterstützt. Hole dir die Pro-Version unter https://play.google.com/store/apps/details\?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">Vergiss nicht, dass Dir der Betrag erstattet wird, wenn du eine bezahlte App innerhalb von zwei Stunden wieder deinstallierst. Falls du später eine Rückerstattung wünschst, kontaktiere uns einfach unter hello@simplemobiletools.com, und du wirst sie bekommen. So kann man ganz einfach die App ausprobieren :)</string>

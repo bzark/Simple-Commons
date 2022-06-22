@@ -14,6 +14,8 @@
     <string name="edit_with">تعديل باستخدام</string>
     <string name="edit">تعديل</string>
     <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
+    <string name="no_browser_found">No browser found</string>
+    <string name="no_email_client_found">No email client found</string>
     <string name="set_as">تعيين كـ</string>
     <string name="copy_to_clipboard">نسخ إلى الحافظة</string>
     <string name="copy_number_to_clipboard">نسخ الرقم إلى الحافظة</string>
@@ -99,6 +101,7 @@
     <string name="type_2_characters">أكتب ما لا يقل عن حرفين لبدء البحث.</string>
     <!-- Filters -->
     <string name="filter">فلتر</string>
+    <string name="filter_pro">فلتر (Pro)</string>
     <string name="no_items_found">لا توجد عناصر.</string>
     <string name="change_filter">تغيير الفلتر</string>
     <!-- Permissions -->
@@ -182,6 +185,8 @@
     <string name="system_folder_restriction">The system does not allow the operation in this folder, please pick another one</string>
     <string name="system_folder_copy_restriction">The system does not allow copying into this folder, please pick another one</string>
     <string name="rename_in_sd_card_system_restriction">The system does not allow renaming in this folder</string>
+    <string name="rename_internal_system_restriction">Cannot rename folders directly on internal storage, only subfolders</string>
+    <string name="cannot_rename_folder">Cannot rename this folder</string>
     <!-- File picker -->
     <string name="select_folder">تحديد مجلد</string>
     <string name="select_file">تحديد ملف</string>
@@ -215,6 +220,7 @@
     </plurals>
     <!-- Storages -->
     <string name="select_storage">حدد وحدة التخزين</string>
+    <string name="storage">Storage</string>
     <string name="internal">وحدة التخزين الداخلية</string>
     <string name="sd_card">بطاقة الذاكرة (SD)</string>
     <string name="root">الروت</string>
@@ -307,7 +313,9 @@
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
+    <string name="print_pro">طباعة (Pro)</string>
     <string name="create_shortcut">إنشاء أختصار</string>
+    <string name="create_shortcut_pro">إنشاء أختصار (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -382,6 +390,7 @@
     <string name="protection_setup_successfully">تم إعداد كلمة المرور بنجاح. يرجى إعادة تثبيت التطبيق في حاله نسيانه.</string>
     <string name="fingerprint_setup_successfully">تم إعداد الحماية بنجاح. يرجى إعادة تثبيت التطبيق في حالة وجود مشاكل في إعادة تعيينه.</string>
     <string name="lock_folder">قفل المجلد</string>
+    <string name="lock_folder_pro">قفل المجلد (Pro)</string>
     <string name="unlock_folder">فتح المجلد</string>
     <string name="lock_folder_notice">تعمل هذه الحماية فقط في هذا التطبيق، ومن المفترض ألا تحل محل تشفير المجلد الحقيقي علي مستوي النظام.</string>
     <!-- Times -->
@@ -951,6 +960,7 @@
     <string name="apng_title">APNG Android (animated WebP support)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF viewer)</string>
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
+    <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <!-- Google Play listing -->
     <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.simplemobiletools.xxx.pro</string>
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@simplemobiletools.com وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
